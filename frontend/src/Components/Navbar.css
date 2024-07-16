@@ -1,0 +1,35 @@
+.MainDivNavbar{
+    position: fixed;
+    top:0px;
+    z-index: 1;
+    width: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #615EFC;
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar button {
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    text-decoration: underline;
+    text-decoration-color:white     ;
+    font-weight: bold;
+}
+.underlinedbtn{
+    text-decoration: underline;
+    text-decoration-color:white     ;
+    font-weight: bold;
+}

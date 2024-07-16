@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific files
+*.log
+local_settings.py
+
+# If you are using Django's default SQLite database
+db.sqlite3
+
+# Static and media files
+staticfiles/
+media/
+
+# If you are using pipenv
+Pipfile.lock
+
+# If you are using virtual environments
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+venv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Node modules (if using a frontend like React)
+node_modules/
+
+# Build files
+build/
+dist/
+
+# Docker files
+*.orig
+docker-compose.override.yml
+
+# PostgreSQL database files
+pgdata/
+
+# Environment variables file
+.env
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.idea/
+*.iml
+
+# Linting
+pylint-output.xml
+flake8.log
+pylint.log

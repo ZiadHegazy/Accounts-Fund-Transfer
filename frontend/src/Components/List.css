@@ -1,0 +1,8 @@
+.tableDiv{
+    width: 40%;
+    height: 50vh;
+    max-height: 50vh ;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+}
